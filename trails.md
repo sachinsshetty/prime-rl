@@ -11,3 +11,14 @@ uv sync && uv sync --all-extras
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 uv run sft @ configs/debug/sft/train.toml
+
+
+facebook/opt-125m
+
+LiquidAI/LFM2-350M
+
+facebook/MobileLLM-R1-140M
+
+
+HuggingFaceTB/SmolLM-135M
+
