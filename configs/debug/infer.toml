@@ -1,2 +1,3 @@
 [model]
 enforce_eager = true
+name = "HuggingFaceTB/SmolLM-135M"

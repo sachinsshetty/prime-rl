@@ -8,7 +8,7 @@ from prime_rl.utils.pydantic_config import BaseConfig
 class ModelConfig(BaseConfig):
     """Configures the model."""
 
-    name: Annotated[str, Field(description="Name or path of the HF model to use.")] = "Qwen/Qwen3-0.6B"
+    name: Annotated[str, Field(description="Name or path of the HF model to use.")] = "HuggingFaceTB/SmolLM-135M"
 
     trust_remote_code: Annotated[
         bool,
