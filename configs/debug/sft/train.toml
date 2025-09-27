@@ -1,7 +1,7 @@
 max_steps = 5
 
 [model]
-name = "HuggingFaceTB/SmolLM-135M" 
+name = "HuggingFaceTB/SmolLM2-135M-Instruct" 
 
 [data]
 type = "fake"
