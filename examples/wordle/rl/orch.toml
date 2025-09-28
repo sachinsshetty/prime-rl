@@ -5,7 +5,7 @@ micro_batch_size = 1
 rollouts_per_example = 16
 
 [model]
-name = "PrimeIntellect/Qwen3-1.7B-Wordle-SFT"
+name = "gaganyatri/SmolLM2-135M-Instruct-Wordle-SFT"
 
 [environment]
 id = "wordle"
