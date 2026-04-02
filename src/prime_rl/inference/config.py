@@ -108,7 +108,7 @@ class InferenceConfig(BaseSettings):
         Field(
             description="The GPU memory utilization to use. Passed to vLLM as `--gpu-memory-utilization`",
         ),
-    ] = 0.9
+    ] = 0.7
 
     seed: Annotated[
         int | None,

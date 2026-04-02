@@ -57,7 +57,7 @@ class ModelConfig(BaseConfig):
         Field(
             description="Name or path of the HF model to use.",
         ),
-    ] = "Qwen/Qwen3-0.6B"
+    ] = "HuggingFaceTB/SmolLM-135M" 
 
     attn: Annotated[AttnImplementation, Field(description="The attention implementation to use.")] = "flash_attention_2"
 

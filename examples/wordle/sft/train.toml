@@ -1,11 +1,11 @@
 max_steps = 20
 
 [model]
-name = "PrimeIntellect/Qwen3-1.7B"
+name = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 [data]
 name = "willcb/V3-wordle"
-seq_len = 1024
+seq_len = 256
 batch_size = 64
 micro-batch-size = 1
 

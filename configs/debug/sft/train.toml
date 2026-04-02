@@ -1,7 +1,7 @@
 max_steps = 5
 
 [model]
-name = "PrimeIntellect/Qwen3-0.6B" 
+name = "HuggingFaceTB/SmolLM2-135M-Instruct" 
 
 [data]
 type = "fake"

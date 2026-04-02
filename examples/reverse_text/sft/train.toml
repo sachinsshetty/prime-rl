@@ -1,11 +1,11 @@
 max_steps = 100
 
 [model]
-name = "PrimeIntellect/Qwen3-0.6B"
+name = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 [data]
 name = "willcb/R1-reverse-wikipedia-paragraphs-v1-1000"
-seq_len = 4096
+seq_len = 2048
 batch_size = 32 
 micro_batch_size = 1
 
